@@ -1,0 +1,92 @@
+body {
+  color: #ccc;
+  background-color: #2d2e33;
+  font-family: arial;
+}
+
+table {
+  background: #20262a;
+  table-layout: fixed;
+  width: 1070px;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, tr, td {
+  border: 1px solid #444;
+}
+
+th {
+  background: linear-gradient(#20262a, #171c1f);
+  padding: 5px 5px;
+}
+
+td {
+  padding: 2px 5px;
+  font-size:small;
+}
+
+table tr:nth-child(even) td {
+  background: #2c353b;
+}
+
+tr.new_row td {
+  background: rgba(143, 244, 66, 0.02);
+}
+
+tr.new_row:nth-child(even) td {
+  background: rgba(143, 244, 66, 0.05);
+}
+
+#username_header {
+  width: 250px;
+}
+
+#icons_header {
+  width: 66px;
+  padding: 5px 5px;
+  -moz-user-select: none;
+}
+
+.icons {
+  text-align: center;
+  font-size: 16px;
+  -moz-user-select: none;
+}
+
+.icon {
+  filter: brightness(90%);
+}
+
+.item_list {
+  width: 380px;
+}
+
+tr.auto td {
+  background: #773030;
+}
+
+.platform_logo {
+  width:15px;
+  height: auto;
+  padding-right: 5px;
+  vertical-align: middle;
+  -moz-user-select: none;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.cursor_default {
+  cursor: default;
+}
+
+.disabled {
+  filter: brightness(50%);
+}
+
+.highlight {
+  color: yellow;
+}
